@@ -1,2 +1,3 @@
-SELECT film_id, title FROM film
-    WHERE rating='PG' AND film_id <=19;
+SELECT * FROM film
+    WHERE rating='PG' 
+    LIMIT 5;

@@ -1,2 +1,2 @@
-SELECT count(film_id) FROM film
-    WHERE rating='PG' OR rating='G';
+SELECT count(*) FROM film
+    WHERE rating IN ('PG', 'G');
